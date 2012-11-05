@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">YouTube Searcher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="json_parser">JsonParser</string>
+    <string name="json_parser1">JsonParser1</string>
+    <string name="combinedtabandlist">Front</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title">YouTube Searcher</string>
+    <string name="search">Search</string>
+    <string name="searchYouTube">Search YouTube</string>
+
+</resources>

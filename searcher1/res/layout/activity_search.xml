@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+     >
+
+    <TextView android:id="@+id/text"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/title"
+              android:layout_centerHorizontal="true"
+              android:textSize="25sp"
+    		  android:layout_above="@+id/frontImage"
+    		  android:textColor="@color/white"
+    		  android:layout_marginBottom="40dip"/>
+    
+    <ImageView android:id="@+id/frontImage"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content"
+        		android:layout_centerHorizontal="true"
+        		android:src="@drawable/largeicon"
+        		android:layout_above="@+id/editTextResult"
+        		android:layout_marginBottom="40dip" />
+        		
+      <EditText
+        android:id="@+id/editTextResult"
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="75dip"
+        android:hint="@string/searchYouTube"
+        android:textColor="@color/gray"
+        android:background="@color/white"> 
+    </EditText>
+    
+       
+    <Button
+        android:id="@+id/buttonPrompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextResult"
+        android:text="@string/search"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/white"
+        android:textColor="@color/black"/>
+   
+
+</RelativeLayout>
