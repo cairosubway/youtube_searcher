@@ -10,7 +10,8 @@
               android:layout_height="wrap_content"
               android:text="@string/title"
               android:layout_centerHorizontal="true"
-              android:textSize="25sp"
+              android:textSize="30sp"
+              android:textStyle="bold"
     		  android:layout_above="@+id/frontImage"
     		  android:textColor="@color/white"
     		  android:layout_marginBottom="40dip"/>
@@ -26,22 +27,26 @@
       <EditText
         android:id="@+id/editTextResult"
         android:layout_width="300dip"
-        android:layout_height="wrap_content"
+        android:layout_height="30dip"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_marginBottom="75dip"
         android:hint="@string/searchYouTube"
         android:textColor="@color/gray"
-        android:background="@color/white"> 
+        android:textSize="25sp"
+        android:background="@color/white"
+        android:imeOptions="actionDone"
+        android:inputType="text"> 
     </EditText>
     
        
     <Button
         android:id="@+id/buttonPrompt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dip"
+        android:layout_height="50dip"
         android:layout_below="@id/editTextResult"
         android:text="@string/search"
+        android:textSize="25sp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:background="@color/white"
