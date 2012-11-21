@@ -1,0 +1,9 @@
+YouTube Searcher 
+
+This is a an Android app I wrote that allows the user to search YouTube videos by keyword.
+
+It requests a JSON response from YouTube, parses the JSON response, and displays the responses in a ListView.
+
+The app calls the YouTube native app to play the video.
+
+The app is stil a work in progress.  I'm working on some issues with calling the native app.
